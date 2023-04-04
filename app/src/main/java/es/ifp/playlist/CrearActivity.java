@@ -35,10 +35,10 @@ public class CrearActivity extends AppCompatActivity {
                 texto1 = label1.getText().toString();
                 texto2 = label2.getText().toString();
                 if( texto1.equals("") || texto2.equals("")){
-                    Toast.makeText(CrearActivity.this, "Todos los campos son obligatorios", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(CrearActivity.this, getString(R.string.toast1_crear), Toast.LENGTH_SHORT).show();
                 }else {
                     db.insertAudio(texto1,texto2);
-                    Toast.makeText(CrearActivity.this, "Audio guardado correctamente", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(CrearActivity.this, getString(R.string.toast2_crear), Toast.LENGTH_SHORT).show();
                     Intent pasarPantalla = new Intent(CrearActivity.this, StartActivity.class);
                     pasarPantalla.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                     finish();

@@ -51,7 +51,7 @@ public class ReproductorActivity extends AppCompatActivity {
             paquete1 = extras.getString("ID");
             paquete2 = extras.getString("TITLE");
             paquete3 = extras.getString("URL");
-            label1.setText("Título: " + paquete2);
+            label1.setText(getString(R.string.str1_reproductor) + ": " + paquete2);
             label2.setText(paquete3);
         }
 
@@ -79,7 +79,7 @@ public class ReproductorActivity extends AppCompatActivity {
                         mp.prepare();
                         mp.start();
                     } catch (IOException e) {
-                        Toast.makeText(ReproductorActivity.this, "Imposible reproducir el audio", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ReproductorActivity.this, getString(R.string.toast1_reproductor), Toast.LENGTH_SHORT).show();
                         e.printStackTrace();
                     }
                 }
