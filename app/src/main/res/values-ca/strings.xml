@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PlayList</string>
+
+    <string name="textView_start">Reproductor Online CA</string>
+
+    <string name="textView2_reproductor">Reproductor de Audio CA</string>
+    <string name="label1_reproductor">Titulo CA</string>
+    <string name="label2_reproductor">URL CA</string>
+    <string name="btn_reproductor">Volver CA</string>
+    <string name="toast1_reproductor">Imposible reproducir el audio CA</string>
+    <string name="str1_reproductor">Título CA</string>
+
+    <string name="textView3_crear">Añadir Audio Online CA</string>
+    <string name="textView4_crear">Título CA</string>
+    <string name="textView5_crear">Url Audio CA</string>
+    <string name="label1_crear">Introduce el título del audio CA</string>
+    <string name="label2_crear">Introduce la url del audio CA</string>
+    <string name="btn1_crear">Guardar Audio CA</string>
+    <string name="toast1_crear">Todos los campos son obligatorios CA</string>
+    <string name="toast2_crear">Audio guardado correctamente CA</string>
+
+    <string name="item_salir_start">Salir CA</string>
+
+</resources>

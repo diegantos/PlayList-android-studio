@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PlayList</string>
+
+    <string name="textView_start">Online Player</string>
+
+    <string name="textView2_reproductor">Audio player</string>
+    <string name="label1_reproductor">Title</string>
+    <string name="label2_reproductor">URL</string>
+    <string name="btn_reproductor">Back</string>
+    <string name="toast1_reproductor">Audio cannot be played</string>
+    <string name="str1_reproductor">Title</string>
+
+    <string name="textView3_crear">Add Online Title</string>
+    <string name="textView4_crear">Title</string>
+    <string name="textView5_crear">Audio URL</string>
+    <string name="label1_crear">Introduce audio title</string>
+    <string name="label2_crear">Introduce audio url</string>
+    <string name="btn1_crear">Save Audio</string>
+    <string name="toast1_crear">All fields are required</string>
+    <string name="toast2_crear">Audio succesfully saved</string>
+
+    <string name="item_salir_start">Exit</string>
+
+</resources>
